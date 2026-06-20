@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { RestaurantProvider } from './context/RestaurantContext';
-import Navbar from './components/layout/Navbar';
+import Navbar from './components/Navbar';
 
 export default function App() {
   return (
