@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import './styles/global.css'
 import Home from './pages/Home';
 import Listagem from './pages/Listagem';
+import Cadastro from './pages/Cadastro';
 
 
 export default function App() {

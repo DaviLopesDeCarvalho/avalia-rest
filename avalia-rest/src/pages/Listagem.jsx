@@ -1,6 +1,6 @@
 import { useContext, useState } from 'react';
 import { RestaurantContext } from '../context/RestaurantContext';
-import RestaurantCard from '../components/ui/RestaurantCard';
+import RestaurantCard from '../components/RestaurantCard';
 
 export default function Listagem() {
   const { restaurants, isLoading, error } = useContext(RestaurantContext);
