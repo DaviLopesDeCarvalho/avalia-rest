@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { RestaurantProvider } from './context/RestaurantContext';
 import Navbar from './components/Navbar';
+import './styles/global.css'
 
 export default function App() {
   return (
