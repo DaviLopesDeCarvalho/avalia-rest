@@ -5,6 +5,7 @@ import './styles/global.css'
 import Home from './pages/Home';
 import Listagem from './pages/Listagem';
 import Cadastro from './pages/Cadastro';
+import NotFound from "./pages/NotFound";
 
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/restaurantes" element={<Listagem />} />
             <Route path="/cadastro" element={<Cadastro />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
       </BrowserRouter>
