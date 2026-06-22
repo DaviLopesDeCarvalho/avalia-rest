@@ -62,9 +62,6 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* =========================================
-   BASE ORIGINAL (MANTIDA INTACTA)
-   ========================================= */
 :root {
   --primary: #d9381e;
   --bg-color: #f4f5f7;
@@ -174,7 +171,6 @@ body {
   flex-wrap: wrap;
 }
 
-/* Botão Outline (Vazado) usado na Home */
 .btn-outline {
   background: transparent;
   color: var(--primary);
@@ -194,7 +190,6 @@ body {
   color: var(--white);
 }
 
-/* Seção de Destaques */
 .highlights-section h2 {
   font-size: 2rem;
   text-align: center;
@@ -209,7 +204,6 @@ body {
   border-radius: 2px;
 }
 
-/* Responsividade Mobile (Para Celulares) */
 @media (max-width: 768px) {
   .navbar-container {
     flex-direction: column;
